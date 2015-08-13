@@ -1,0 +1,18 @@
+#db_nav {
+	margin: auto;
+	text-align: center;
+	padding: 10px 10px 25px 10px;
+}
+#db_nav a {
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+
+.currentpage {
+	font-weight: bold;
+}
+
+#db_article {
+	position: static;
+	z-index:10;
+}

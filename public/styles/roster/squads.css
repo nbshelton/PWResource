@@ -1,0 +1,82 @@
+article {
+    padding: 0px;
+}
+main {
+    width: 0px;
+    padding: 15px 30px;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.player_list {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 5px 0 0 0;
+    float: left;
+}
+.player_list:empty {
+    border: none;
+}
+.player_list li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    width: 120px;
+}
+#class_list {
+    float: left;
+    width: 15em;
+    min-height: 660px;
+    max-height: 90%;
+    padding: 0 5px;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: -2px;
+}
+#class_list h3 {
+    font-weight: bold;
+}
+
+.squad-column {
+    width: 250px;
+    float: left;
+    padding-bottom: 100px;
+}
+.squad {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+}
+.squad-header {
+    padding: 0.3em 3.3em 0.3em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+.squad-rename {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    margin-top: -8px;
+}
+.squad-close {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+}
+.squad-list {
+    padding: 0.4em;
+}
+.squad-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
