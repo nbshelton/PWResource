@@ -17,8 +17,6 @@ define('BASE', __DIR__ . "\\..\\");
     
 ob_start();
 
-require VENDOR.'autoload.php';
-
 if (DEBUGAUTOLOAD) {
     spl_autoload_register(function($class) {
         echo("== " . $class . " ==<br />");
