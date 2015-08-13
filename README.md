@@ -11,7 +11,7 @@ These features include:
 PWResource was created to run on on Apache 2.4 with PHP 5.5 and MySQL 5.6.
 
 Apache's home directory should be set to the public/ folder.
-The config/database.ini config file should be filled out with your database's information.
+The config/database.ini.example config file should be renamed to database.ini and filled out with your database's information.
 
 Test data needed for a functional system is provided in db_init/. This will create the "elementdata" database that PWResource uses as well as the "pwr" database, which is used to store Roster information.
 
